@@ -1,0 +1,76 @@
+* {margin: 0px; padding: 0px}
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background: rgb(37, 35, 36);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+}
+
+h1 {
+  font-size: 60px;
+    margin: 10px;
+  color: rgb(32, 32, 37);
+}
+
+.center {
+    padding-top: 20px;
+   margin: 0px auto;
+   max-width: 800px;
+   max-height: 700px;
+   height: auto;
+   text-align: center;
+ 
+}
+
+main h1, p, div, textarea {
+    margin-bottom: 30px;
+}
+
+footer pre {
+    text-align: left;
+    margin: auto;
+    max-width: 600px;
+    height: 300px;
+    background-color: white;
+    color: black;
+    border: 1px solid #0b0c0a;
+    overflow-y: scroll;
+
+}
+
+  .btn {background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%)}
+  .btn {
+     margin: 10px;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     position: relative;
+    display: inline-block;
+    
+   }
+
+   .btn:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+  
+
+  .form-control {
+    width: 140px;
+    height: 40px;
+ 
+  }
+
+  .text {
+      width: 300px;
+      height: 100px;
+      font-size: 15px;
+  }
+label {
+  font-size: 22px;
+}

@@ -1,0 +1,32 @@
+{{ define "home" }}
+{{ template "header" }}
+<div class="clearfix"></div>
+<div class="center">
+  <main class="main">
+      <h1>ASCII-ART-WEB</h1>
+      <form action="/ascii-art" method="POST">
+       <div class="form-group">
+           <label for="label">Fonts:</label>
+           <select name="banner" class="form-control">
+             <option>standard</option>
+             <option>shadow</option>
+             <option>thinkertoy</option>
+           </select>
+         </div>
+       <textarea name="text" id="text" class="text" placeholder="Type your text..." required></textarea><br>
+        
+       <button class="btn">Show</button>
+       <button class="btn">Clear</button>
+       <button class="btn">About</button>
+      
+  <br><br>
+   </form>
+    </main>
+    <footer>
+      <pre name="outtext" >{{ . }}</pre>
+      <input type="reset" id = "test" value="Reset" class="btn">
+   </footer>
+   </div>
+</body>
+</html>
+{{ end }}
